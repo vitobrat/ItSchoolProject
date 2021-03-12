@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.FragmentMath">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Квадратное"
+        android:textSize="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="уравнение"
+        android:textSize="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"/>/>
+    <ImageView
+        android:id="@+id/im_quadratic_equation"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/quadratic_equation"/>
+
+</FrameLayout>

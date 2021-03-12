@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mr_president"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Hello World!"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:background="#15000000"/>
+
+    <EditText
+        android:id="@+id/et_name"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Введите ваше имя"
+        android:layout_marginTop="280dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginTop="500dp"
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/side_nav_bar"
+            android:text="Продолжить" />
+        <Button
+            android:layout_marginTop="500dp"
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/side_nav_bar"
+
+            android:text="2"
+            android:visibility="invisible"/>
+        <Button
+            android:id="@+id/btn3"
+            android:layout_marginTop="500dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/side_nav_bar"
+            android:text="3"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+
+</FrameLayout>

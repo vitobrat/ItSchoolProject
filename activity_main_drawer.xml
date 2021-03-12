@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        >
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/abc_vector_test"
+            android:title="@string/menu_home"/>
+
+        <item
+            android:id="@+id/nav_teacherList"
+            android:icon="@drawable/abc_vector_test"
+            android:title="@string/teacherList_item" />
+        <item
+            android:id="@+id/nav_weather"
+            android:icon="@drawable/abc_vector_test"
+            android:title="@string/weather_item" />
+        <item
+            android:id="@+id/nav_calculate"
+            android:icon="@drawable/abc_vector_test"
+            android:title="@string/calculate_item" />
+        <item
+            android:id="@+id/nav_games"
+            android:icon="@drawable/abc_vector_test"
+            android:title="@string/games_item" />
+    </group>
+
+    <item android:title="@string/subjects_item">
+        <menu>
+            <item
+                android:id="@+id/nav_math"
+                android:icon="@drawable/abc_vector_test"
+                android:title="@string/math_item" />
+            <item
+                android:id="@+id/nav_physics"
+                android:icon="@drawable/abc_vector_test"
+                android:title="@string/physics_item" />
+        </menu>
+    </item>
+
+</menu>

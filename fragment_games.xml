@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.FragmentGames">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+        android:text="Игра Mr.President"
+        android:textSize="49dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="350dp"/>
+    <ImageView
+        android:id="@+id/im_president"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="45dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/president"/>
+
+</FrameLayout>

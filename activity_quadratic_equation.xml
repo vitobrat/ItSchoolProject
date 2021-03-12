@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.Math.QuadraticEquation"
+    android:background="@drawable/list_in_square">
+    <EditText
+        android:id="@+id/et_a"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Значение а"
+        android:inputType="numberSigned"/>
+    <EditText
+        android:id="@+id/et_b"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Значение b"
+        android:textSize="20dp"
+        android:inputType="numberSigned"/>
+    <EditText
+        android:id="@+id/et_c"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="170dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Значение c"
+        android:inputType="numberSigned"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Результат:"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="250dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_x1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x1:"
+        android:textSize="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="320dp"
+        android:textColor="@color/teal_700"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/tv_x2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x2:"
+        android:textSize="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="390dp"
+        android:textColor="@color/teal_700"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/formula_quadratic"/>
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:text="Выйти"
+        android:textSize="11dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="600dp"/>
+    <Button
+        android:id="@+id/btn_solve"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:textSize="11dp"
+        android:text="Показать решение"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="600dp"/>
+
+</FrameLayout>
